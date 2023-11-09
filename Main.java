@@ -56,7 +56,7 @@ public class Main {
     public static void main(String[] args) {
         int[] tamanhos = {10, 100, 1000, 10000, 100000};
         String[] funcoesHash = {"restoDivisao", "multiplicacao", "dobramento"};
-        Random random = new Random(321); // Seed
+        Random random = new Random(123); // Seed
 
         for (int tamanho : tamanhos) {
             TabelaHash tabelaHash = new TabelaHash(tamanho);
